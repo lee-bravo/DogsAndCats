@@ -1,4 +1,9 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
+@import "{{ site.theme }}";
+
+.site-header {
+    background-color: #2b5797;
+    height: 100px;
+}
