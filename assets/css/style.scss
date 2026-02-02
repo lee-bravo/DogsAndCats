@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.btn-github, .github-button, #view-on-github { 
+  display: none !important; 
+}
+
 .page-header {
     background-image: none !important;
     background-color: #2b5797 !important;
