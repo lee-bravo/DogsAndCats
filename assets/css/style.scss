@@ -8,20 +8,14 @@
 }
 
 .page-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/images/Pickles.png');
+  /* This points to your image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                    url('{{ "/assets/images/Pickles.png" | relative_url }}');
   
-  /* This ensures the image covers the whole area without stretching */
+  /* This ensures the image fills the entire header area */
   background-size: cover;
   background-position: center;
   
-  /* Set a minimum height so we can actually see the image */
-  min-height: 300px;
-  
-  /* Centers your title/nav inside the header */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white; /* Makes your text white so it stands out */
+  /* Optional: Adjust padding if you want a taller header */
+  padding: 5rem 6rem;
 }
