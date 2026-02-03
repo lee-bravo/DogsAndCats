@@ -10,7 +10,7 @@
 .page-header {
   /* This points to your image */
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                    url('{{ "/assets/images/Pickles.png" | relative_url }}');
+                    url('{{ "/assets/css/images/Pickles.jpg" | relative_url }}');
   
   /* This ensures the image fills the entire header area */
   background-size: cover;
